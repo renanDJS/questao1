@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main() {
+	
+
+float valor1;
+float valor2;
+
+	printf( "digite o primeiro valor1\n");
+	scanf("%f", &valor1);
+	
+	printf("digite o segundo numero2\n");
+	scanf("%f", &valor2);
+	
+	float divisao = valor1/valor2;
+	
+	printf("O valor da divisao: %f", divisao);
+	
+	return 0;
+}
