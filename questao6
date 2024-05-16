@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main() {
+	
+	float peso_quilos;
+	float peso_gramas;
+	 
+	 
+    printf("digite o peso em quilos");
+    scanf("%f", &peso_quilos);
+    
+    peso_gramas = peso_quilos * 1000;
+    
+    printf("%.2f", peso_gramas);
+     
+    
+	
+
+
+	return 0;
+}
